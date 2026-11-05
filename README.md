@@ -24,15 +24,23 @@
 ### 🛠️ Tech stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,python,mysql,mongodb,git,js,html,css" height="60" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,python,spring,mysql,mongodb,docker,androidstudio,maven,git,js,html,css" height="60" />
 </div>
 
 ###
 
+### 📂 Featured projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| 💡 [LightsOut](https://github.com/MarioCarcalete/Programaci-n_multiplataforma_Kotlin_y_dem-s/tree/main/LightsOut) | Android logic game with 3x3 to 5x5 boards, timer, move counter, random solvable games and haptics | Kotlin · Android |
+| 🧪 [TelemetrySystem](https://github.com/MarioCarcalete/Ampliacion-EntornosIDE-Testing) | SOLID refactor of untestable legacy code, covered with unit tests and mocks running on GitHub Actions | Java · JUnit 5 · Mockito |
+| 🗄️ [Data access toolkit](https://github.com/MarioCarcalete/Ejercicios-Java-PP/tree/main/Acceso-Datos/Examen_AccesoDatos) | Read/write the same model in TXT, binary, XML, JSON and MySQL, with 18 migrations between formats | Java · JDBC · Gson · Docker |
+| 🧵 [Processes & threads](https://github.com/MarioCarcalete/PSP_Dam) | Multiprocess programs with `ProcessBuilder` and concurrency exercises with synchronized threads | Java |
+
+###
+
 ### 📊 GitHub stats
-
-
-
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=MarioCarcalete&theme=dracula" height="150" />
