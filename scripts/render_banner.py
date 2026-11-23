@@ -29,7 +29,7 @@ BRANCHES = [  # (title, subtitle, colour key)
     ("Android", "Kotlin", "kotlin"),
     ("Backend", "Java · SQL", "java"),
     ("Automatización IA", "n8n · Python · OCR", "ai"),
-    ("Servidor casero", "Debian · Docker", "server"),
+    ("Servidor casero", "Ubuntu · Docker", "server"),
 ]
 OUTPUT = (("Busco", "prácticas"), "FCT")
 FOOTER = [("Español", "nativo"), ("Rumano", "nativo"), ("Inglés", "B2")]

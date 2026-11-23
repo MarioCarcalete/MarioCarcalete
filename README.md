@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./cards/flujo-c7825328.svg" width="100%" alt="Mario Cristian Carcalete, 2º DAM en Madrid. Android con Kotlin, backend con Java y SQL, automatización con IA (n8n, OCR, APIs). Busco prácticas FCT. Español y rumano nativos, inglés B2." />
+  <img src="./cards/flujo-264f86a5.svg" width="100%" alt="Mario Cristian Carcalete, 2º DAM en Madrid. Android con Kotlin, backend con Java y SQL, automatización con IA (n8n, OCR, APIs). Busco prácticas FCT. Español y rumano nativos, inglés B2." />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ## 👋 Sobre mí
 
-Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisco de Goya (Madrid) y busco **prácticas (FCT) en desarrollo de software**. Programo en **Java, Kotlin y Python**, trabajo con bases de datos **MySQL, SQLite y MongoDB**, y ya he llevado la **inteligencia artificial y la automatización** a procesos reales. Además doy **clases particulares** y tengo mi propio **servidor casero con Debian**, donde pruebo todo lo que aprendo.
+Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisco de Goya (Madrid) y busco **prácticas (FCT) en desarrollo de software**. Programo en **Java, Kotlin y Python**, trabajo con bases de datos **MySQL, SQLite y MongoDB**, y ya he llevado la **inteligencia artificial y la automatización** a procesos reales. Además doy **clases particulares** y tengo mi propio **servidor casero con Ubuntu Server**, donde pruebo todo lo que aprendo.
 
 ## 💼 Experiencia
 
@@ -25,12 +25,21 @@ Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisc
 
 ## 🖥️ Mi servidor casero
 
-Un portátil antiguo convertido en servidor 24/7 con **Debian**, que manejo desde la terminal del Mac por SSH.
+Un portátil antiguo (Ryzen 5, 12 GB de RAM) convertido en servidor 24/7 con **Ubuntu Server LTS**, que manejo desde la terminal del Mac por SSH. Lo monté desde cero, incluido arreglar un fallo del SSD con Linux ajustando los parámetros de arranque del kernel.
 
 - Servicios en contenedores con **Docker**, gestionados desde **Portainer**.
 - **n8n** con **PostgreSQL** para mis automatizaciones.
 - Acceso remoto por VPN, sin abrir puertos al exterior.
 - Lo uso para aprender **Linux, redes y ciberseguridad**.
+
+**Hoja de ruta**
+
+- [x] Base: Ubuntu Server, SSH, Docker y acceso por VPN
+- [x] n8n con PostgreSQL
+- [ ] Aviso "Buenos días" completo y paneles de estado del servidor
+- [ ] Herramientas de clase: bases de datos, Git propio y backend en Kotlin
+- [ ] Más seguridad y copias de seguridad
+- [ ] Proxmox y un laboratorio aislado de ciberseguridad
 
 **☀️ Automatización "Buenos días":** cada mañana un flujo de n8n lee mi **Google Calendar** y me avisa de los **alumnos que tengo ese día** y de mis **tareas**.
 
@@ -44,7 +53,7 @@ flowchart LR
 ## 🛠️ Tecnologías
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,debian,docker,postgres,idea,androidstudio&perline=10" width="70%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, Bash, macOS, Debian, Docker, PostgreSQL, IntelliJ IDEA, Android Studio" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,linux,docker,postgres,idea,androidstudio&perline=10" width="70%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, Bash, macOS, Linux, Docker, PostgreSQL, IntelliJ IDEA, Android Studio" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-automatización-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
