@@ -54,7 +54,7 @@ flowchart LR
 ## 🛠️ Tecnologías
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,linux,docker,postgres,idea,androidstudio&perline=10" width="70%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, Bash, macOS, Linux, Docker, PostgreSQL, IntelliJ IDEA, Android Studio" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,linux,docker,postgres,idea,androidstudio&perline=10" width="70%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, Git, GitHub, Bash, macOS, Linux, Docker, PostgreSQL, IntelliJ IDEA, Android Studio" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-automatización-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
