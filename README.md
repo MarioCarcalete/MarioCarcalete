@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./cards/activity-b0681589.svg" width="100%" alt="Run panel: featured projects as passing tests and a chart of activity over the last 12 months" />
+  <img src="./cards/activity-bd06833f.svg" width="100%" alt="Run panel: featured projects as passing tests and a chart of activity over the last 12 months" />
 </p>
 
 <p align="center">
