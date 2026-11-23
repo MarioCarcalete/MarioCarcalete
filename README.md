@@ -21,7 +21,7 @@ Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisc
 - Parseo y limpieza de datos con **JavaScript y JSON**.
 - Informes en **Excel** generados por API, de la extracción a la exportación, sin pasos a mano.
 
-**Profesor de clases particulares** · autónomo · 2024 – actualidad
+**Profesor de clases particulares**   · 2024 – actualidad
 
 ## 🖥️ Mi servidor casero
 
