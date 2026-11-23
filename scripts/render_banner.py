@@ -24,11 +24,12 @@ README = ROOT / "README.md"
 # ---------------------------------------------------------------- content ---
 
 TRIGGER = ("Hola!", "inicio")
-PERSON = ("Mario Cristian", "Carcalete", "2º DAM · Madrid")
+PERSON = ("Mario Cristian", "Carcalete", "2º DAM · Madrid", "Profe particular")
 BRANCHES = [  # (title, subtitle, colour key)
     ("Android", "Kotlin", "kotlin"),
     ("Backend", "Java · SQL", "java"),
-    ("Automatización IA", "n8n · OCR · APIs", "ai"),
+    ("Automatización IA", "n8n · Python · OCR", "ai"),
+    ("Servidor casero", "Debian · Docker", "server"),
 ]
 OUTPUT = (("Busco", "prácticas"), "FCT")
 FOOTER = [("Español", "nativo"), ("Rumano", "nativo"), ("Inglés", "B2")]
@@ -46,6 +47,7 @@ C = {
     "java": "#f0883e",
     "ai": "#2dd4bf",
     "green": "#4ade80",
+    "server": "#60a5fa",
     "pink": "#f472b6",
 }
 FONT = "'JBM','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
@@ -109,6 +111,9 @@ def icon(kind, cx, cy, colour):
     if kind == "ai":  # spark
         return (f'<path d="M{cx} {cy-9}l2.2 6.8L{cx+9} {cy}l-6.8 2.2L{cx} {cy+9}l-2.2-6.8L{cx-9} {cy}'
                 f'l6.8-2.2z" {st}/>')
+    if kind == "server":  # old laptop
+        return (f'<rect x="{cx-8}" y="{cy-7}" width="16" height="11" rx="1.5" {st}/>'
+                f'<path d="M{cx-10} {cy+7}h20" {st}/>')
     if kind == "play":
         return f'<path d="M{cx-4} {cy-6}l10 6l-10 6z" fill="{colour}"/>'
     if kind == "flag":
@@ -117,7 +122,7 @@ def icon(kind, cx, cy, colour):
 
 
 def banner() -> str:
-    W, H = 880, 360
+    W, H = 880, 400
     b = []
     b.append(f'<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse">'
              f'<circle cx="1.5" cy="1.5" r="1.2" fill="{C["dot"]}"/></pattern>'
@@ -133,7 +138,7 @@ def banner() -> str:
              f'<circle class="pulse" cx="{W-95}" cy="31" r="4" fill="{C["green"]}"/>')
     b.append(t(W - 83, 35.5, "activo", 12, C["green"], 700))
 
-    cy = 178  # middle line
+    cy = 196  # middle line
     # trigger
     tx, tw, th = 24, 118, 64
     b.append(node(tx, cy - th / 2, tw, th, C["green"], 0.1,
@@ -143,7 +148,7 @@ def banner() -> str:
                   rx=32))
     b.append(port(tx + tw, cy, C["green"]))
     # person
-    px, pw, ph = 192, 216, 120
+    px, pw, ph = 192, 216, 140
     b.append(wire(tx + tw, cy, px, cy, C["green"], 0.6))
     b.append(node(px, cy - ph / 2, pw, ph, "url(#hl)", 0.35,
                   f'<rect x="{px+16}" y="{cy-44}" width="44" height="44" rx="12" fill="url(#hl)"/>'
@@ -151,11 +156,12 @@ def banner() -> str:
                   + t(px + 72, cy - 26, PERSON[0], 13, weight=700)
                   + t(px + 72, cy - 9, PERSON[1], 13, weight=700)
                   + f'<line x1="{px+16}" y1="{cy+16}" x2="{px+pw-16}" y2="{cy+16}" stroke="{C["stroke"]}"/>'
-                  + t(px + 16, cy + 40, PERSON[2], 12, C["dim"])))
+                  + t(px + 16, cy + 38, PERSON[2], 12, C["dim"])
+                  + t(px + 16, cy + 56, PERSON[3], 12, C["dim"])))
     b.append(port(px, cy, C["green"]))
     b.append(port(px + pw, cy, C["kotlin"]))
     # branches
-    bx, bw, bh, gap = 474, 212, 58, 18
+    bx, bw, bh, gap = 474, 212, 56, 14
     top = cy - (len(BRANCHES) * bh + (len(BRANCHES) - 1) * gap) / 2
     mids = []
     for i, (title, sub, key) in enumerate(BRANCHES):
@@ -200,7 +206,7 @@ def banner() -> str:
            ".pulse{animation:pulse 1.6s ease-in-out infinite}"
            "@keyframes pulse{50%{opacity:.3}}"
            "@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}")
-    label = (f"{PERSON[0]} {PERSON[1]}, {PERSON[2]}. "
+    label = (f"{PERSON[0]} {PERSON[1]}, {PERSON[2]}, {PERSON[3].lower()}. "
              + ", ".join(f"{a} ({s})" for a, s, _ in BRANCHES)
              + f". {' '.join(OUTPUT[0])} {OUTPUT[1]}. Idiomas: "
              + ", ".join(f"{n} {l}" for n, l in FOOTER) + ".")

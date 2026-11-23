@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./cards/flujo-2c7cb646.svg" width="100%" alt="Mario Cristian Carcalete, 2º DAM en Madrid. Android con Kotlin, backend con Java y SQL, automatización con IA (n8n, OCR, APIs). Busco prácticas FCT. Español y rumano nativos, inglés B2." />
+  <img src="./cards/flujo-c7825328.svg" width="100%" alt="Mario Cristian Carcalete, 2º DAM en Madrid. Android con Kotlin, backend con Java y SQL, automatización con IA (n8n, OCR, APIs). Busco prácticas FCT. Español y rumano nativos, inglés B2." />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 ## 👋 Sobre mí
 
-Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisco de Goya (Madrid) y busco **prácticas (FCT) en desarrollo de software**. Programo en **Java, Kotlin y Python**, trabajo con bases de datos **MySQL, SQLite y MongoDB**, y ya he llevado la **inteligencia artificial y la automatización** a procesos reales.
+Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisco de Goya (Madrid) y busco **prácticas (FCT) en desarrollo de software**. Programo en **Java, Kotlin y Python**, trabajo con bases de datos **MySQL, SQLite y MongoDB**, y ya he llevado la **inteligencia artificial y la automatización** a procesos reales. Además doy **clases particulares** y tengo mi propio **servidor casero con Debian**, donde pruebo todo lo que aprendo.
 
 ## 💼 Experiencia
 
@@ -21,10 +21,30 @@ Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisc
 - Parseo y limpieza de datos con **JavaScript y JSON**.
 - Informes en **Excel** generados por API, de la extracción a la exportación, sin pasos a mano.
 
+**Profesor de clases particulares** · autónomo · 2024 – actualidad
+
+## 🖥️ Mi servidor casero
+
+Un portátil antiguo convertido en servidor 24/7 con **Debian**, que manejo desde la terminal del Mac por SSH.
+
+- Servicios en contenedores con **Docker**, gestionados desde **Portainer**.
+- **n8n** con **PostgreSQL** para mis automatizaciones.
+- Acceso remoto por VPN, sin abrir puertos al exterior.
+- Lo uso para aprender **Linux, redes y ciberseguridad**.
+
+**☀️ Automatización "Buenos días":** cada mañana un flujo de n8n lee mi **Google Calendar** y me avisa de los **alumnos que tengo ese día** y de mis **tareas**.
+
+```mermaid
+flowchart LR
+    A[⏰ 7:30] --> B[📅 Google Calendar]
+    B --> C[⚙️ n8n ordena el día]
+    C --> D[📲 Aviso: alumnos y tareas]
+```
+
 ## 🛠️ Tecnologías
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,idea,androidstudio&perline=8" width="62%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, Bash, macOS, IntelliJ IDEA, Android Studio" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,debian,docker,postgres,idea,androidstudio&perline=10" width="70%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, Bash, macOS, Debian, Docker, PostgreSQL, IntelliJ IDEA, Android Studio" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-automatización-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
