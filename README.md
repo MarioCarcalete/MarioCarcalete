@@ -69,11 +69,11 @@ flowchart LR
 
 | Proyecto | Qué es | Tecnología |
 |---|---|---|
-| 💡 [LightsOut](https://github.com/MarioCarcalete/Programaci-n_multiplataforma_Kotlin_y_dem-s/tree/main/LightsOut) | Juego de lógica para Android con tableros de 3x3 a 5x5, cronómetro, contador de movimientos y partidas siempre resolubles | Kotlin · Android |
+| 💡 [LightsOut](https://github.com/MarioCarcalete/Programacion_Movil_Multiplataforma/tree/main/LightsOut) | Juego de lógica para Android con tableros de 3x3 a 5x5, cronómetro, contador de movimientos y partidas siempre resolubles | Kotlin · Android |
 | 🧪 [TelemetrySystem](https://github.com/MarioCarcalete/Ampliacion-EntornosIDE-Testing) | Código heredado refactorizado con SOLID y cubierto con tests y mocks que se ejecutan en GitHub Actions | Java · JUnit 5 · Mockito |
 | 🗄️ [Acceso a datos](https://github.com/MarioCarcalete/Ejercicios-Java-PP/tree/main/Acceso-Datos/Examen_AccesoDatos) | El mismo modelo en TXT, binario, XML, JSON y MySQL, con 18 migraciones entre formatos | Java · JDBC · Gson · Docker |
 | 🧵 [Procesos e hilos](https://github.com/MarioCarcalete/PSP_Dam) | Programas multiproceso con `ProcessBuilder` y concurrencia con hilos sincronizados | Java |
-| 🌐 [Formularios web](https://github.com/MarioCarcalete/Lenguage-De-Marcas) | Formularios con HTML y CSS validados con JavaScript | HTML · CSS · JS |
+| 🌐 [Formularios web](https://github.com/MarioCarcalete/Lenguaje-De-Marcas) | Formularios con HTML y CSS validados con JavaScript | HTML · CSS · JS |
 
 <br>
 
