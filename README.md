@@ -36,7 +36,8 @@ Un portátil antiguo (Ryzen 5, 12 GB de RAM) convertido en servidor 24/7 con **U
 
 - [x] Base: Ubuntu Server, SSH, Docker y acceso por VPN
 - [x] n8n con PostgreSQL
-- [ ] Aviso "Buenos días" completo y paneles de estado del servidor
+- [x] Aviso "Buenos días" con Google Calendar
+- [ ] Panel de inicio y avisos si algún servicio se cae
 - [ ] Herramientas de clase: bases de datos, Git propio y backend en Kotlin
 - [ ] Más seguridad y copias de seguridad
 - [ ] Proxmox y un laboratorio aislado de ciberseguridad
