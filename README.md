@@ -24,13 +24,16 @@ Estudio **2º de Desarrollo de Aplicaciones Multiplataforma** en el IES Francisc
 ## 🛠️ Tecnologías
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,idea,androidstudio&perline=14" width="92%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, IntelliJ IDEA, Android Studio" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,python,js,mysql,sqlite,mongodb,html,css,wordpress,git,github,bash,apple,idea,androidstudio&perline=8" width="62%" alt="Java, Kotlin, Python, JavaScript, MySQL, SQLite, MongoDB, HTML, CSS, WordPress, Git, GitHub, Bash, macOS, IntelliJ IDEA, Android Studio" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-automatización-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Terminal-Bash_·_zsh_en_macOS-1f2328?style=flat-square&logo=gnubash&logoColor=white" alt="Terminal: Bash y zsh en macOS" />
   <img src="https://img.shields.io/badge/IA-Claude_·_Mistral-2dd4bf?style=flat-square" alt="IA: Claude y Mistral" />
   <img src="https://img.shields.io/badge/Testing-JUnit_5_·_Mockito-f0883e?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5 y Mockito" />
 </p>
+
+**🌱 Aprendiendo ahora:** Python a fondo y scripting en la terminal (Bash/zsh en macOS) para automatizar mi día a día.
 
 ## 📂 Proyectos del ciclo
 
